@@ -25,3 +25,9 @@ pada Powershell.
 3. Sekarang, kita berada pada virtual environment yang sudah di-setup. Jalankan ``pip install Flask`` untuk mendownload Flask.
 4. Untuk menjalankan server, jalankan perintah ``$env:FLASK_APP = "app"`` untuk meng-export aplikasi kita, dan jalankan menggunakan
 ``flask run``.
+
+Endpoint yang dibuat:
+- /store [GET, POST, PUT, DELETE] : CRUD untuk cabang toko
+- /dorayaki [GET, POST, PUT, DELETE] : CRUD untuk varian dorayaki
+- /store_items [GET, POST, PUT, DELETE] : CRUD untuk mutasi varian per toko
+- /store/transfer_stock [GET, PUT] : Keperluan transfer dorayaki antar cabang
